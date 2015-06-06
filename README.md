@@ -23,7 +23,7 @@ Running `grunt test` will run the unit tests with karma.
 4. Create the angular app: yo angular [app-name] (the app name parameter is optional).
 5. Run the app locally with the following command : grunt serve
 6. Install more dependent packages:
-    >>. npm install gzippo express morgan --save
+    npm install gzippo express morgan --save
 7. Create a server file called web.js in the root director: /web.js
     >>. update web.js with follwoing code:
         var gzippo = require('gzippo');
