@@ -16,7 +16,7 @@ Running `grunt test` will run the unit tests with karma.
 ** Any commands listed below with option "-g" are run with ADMIN privileges.
 
 1. Install Yeoman.
-    a. npm install -g yo
+    * npm install -g yo
 2. Install other dependent packages
     a. npm install -g grunt-cli bower yo generator-karma generator-angular
 3. mkdir my-new-project && cd $_
