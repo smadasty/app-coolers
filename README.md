@@ -26,6 +26,7 @@ Running `grunt test` will run the unit tests with karma.
     * npm install gzippo express morgan --save
 7. Create a server file called web.js in the root director: /web.js
     * update web.js with follwoing code:
+        <pre>
         var gzippo = require('gzippo');
         var express = require('express');
         var morgan = require('morgan');
@@ -33,6 +34,7 @@ Running `grunt test` will run the unit tests with karma.
         app.use(morgan('dev'));
         app.use(gzippo.staticGzip("" + __dirname + "/dist"));
         app.listen(process.env.PORT || 5000);
+        </pre>
 8. Run the following command to build the project: grunt build
 9. Remove 'dist' from the .gitignore file
 10. Add a new file : Procfile
