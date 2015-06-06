@@ -23,9 +23,9 @@ Running `grunt test` will run the unit tests with karma.
 4. Create the angular app: yo angular [app-name] (the app name parameter is optional).
 5. Run the app locally with the following command : grunt serve
 6. Install more dependent packages:
-    a. npm install gzippo express morgan --save
+    >>. npm install gzippo express morgan --save
 7. Create a server file called web.js in the root director: /web.js
-    a. update web.js with follwoing code:
+    >>. update web.js with follwoing code:
         var gzippo = require('gzippo');
         var express = require('express');
         var morgan = require('morgan');
@@ -37,10 +37,10 @@ Running `grunt test` will run the unit tests with karma.
 9. Remove 'dist' from the .gitignore file
 10. Add a new file : Procfile
 11. Update "Procfile" with follwoing line:
-    a. web: node web.js
+    >>. web: node web.js
 12. Create Heroku Account and install Heroku Toolbelt.
 13. Github instructions:
-    a. git init
+    >>. git init
     b. git add .
     c. git commit -m "Create angular app using Yeoman"
 14. Heroku instructions:
